@@ -15,7 +15,7 @@ typedef struct
 }word_t;
 #define eqword(x,y) (x.lo==y.lo && x.hi==y.hi)
 #define ltword(x,y) (x.hi<y.hi || x.hi==y.hi && x.lo<y.lo)
-#define readat(x,y,z) x.lo=halfread(y,z);x.hi=halfread(y,z+sizeof(halfword_t))
+#define readat(x,y,z) {x.lo=halfread(y,z);x.hi=halfread(y,z+sizeof(halfword_t));}
 #else
 //typedef __uint128_t word_t;
  typedef __uint64_t word_t;
