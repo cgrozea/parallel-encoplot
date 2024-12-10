@@ -8,3 +8,5 @@ extended for massively parallel computers.
 
 It is using the OMPSS library from the Barcelona Supercomputing Center https://www.bsc.es/research-development/research-areas/programming-models/the-ompss-programming-model
 and has been tested on one of theirs supercomputers.
+
+I hosted this before at code.google.com/p/parallel-encoplot .
